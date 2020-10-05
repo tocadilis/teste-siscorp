@@ -28,13 +28,13 @@ public class FabricanteJpaEntity extends BaseJpaEntity {
     private static final long serialVersionUID = 1L;
    
     @NotNull
-    @NotBlank(message = "Campo Nome fantasia obrigatória")
+    @NotBlank(message = "Campo Nome fantasia obrigatório")
     @Size(min = 3, max = 50)
     @Column(length = 50)
     private String nomeFantasia;
 
     @NotNull
-    @NotBlank(message = "Campo razaoSocial obrigatório.")
+    @NotBlank(message = "Campo Razão Social obrigatório")
     @Size(min = 3, max = 50)
     @Column(length = 50)
     private String razaoSocial;

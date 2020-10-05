@@ -38,6 +38,7 @@ public class ProdutoJpaEntity extends BaseJpaEntity {
    
     @NotNull
     @NotBlank(message = "Campo EAN obrigatório")
+    @Column(length = 20)
     private String ean;
     
     @NotNull

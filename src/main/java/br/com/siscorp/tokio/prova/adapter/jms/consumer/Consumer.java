@@ -24,8 +24,4 @@ public class Consumer {
 		detalheProdutoService.incluirProduto(produto);
 		log.info("Message received : " + produto);
 	}
-
-//teste
-	
-
 }

@@ -25,7 +25,7 @@ public class Consumer {
 		log.info("Message received : " + produto);
 	}
 
-
+//teste
 	
 
 }
